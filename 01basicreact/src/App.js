@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <Chai />
-   <h1>chai aur react</h1>
+   <h1>chai aur react | subhranshu </h1>
     </>
   );
 }
