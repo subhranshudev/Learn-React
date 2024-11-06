@@ -38,7 +38,7 @@ function App() {
       <h1 className='text-white text-center mb-2'>Password Generator</h1>
 
       <div className='flex shadow rounded-lg overflow-hidden mb-4'>
-          <input type="text" className='outline-none w-full py-1 px-3' placeholder= "password" value={password} ref={passwordRef}/>
+          <input type="text" className='outline-none w-full py-1 px-3' placeholder= "password" value={password} ref={passwordRef} readOnly />
           <button className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 hover:bg-blue-500 ' onClick={() => {copyPasswordToClipboard()}}>copy</button>
       </div>
 
